@@ -1,0 +1,31 @@
+<html>
+<head>
+</head>
+	<link href="../../style.css" rel="stylesheet">
+<body>
+	<h1><a href="../../index.html">Visual DSi Fault Guide</a></h1>
+	<div class="flex-container">
+		<div class="gallery">
+			<img src="../../photos/wifimodule/wrongver_unlaunch.png" alt="Black screen">
+		</div>
+	</div>
+
+	<div class="content">
+	<h3>Description</h3>
+		The DSi immediately boots to "an error has occurred."
+	<br><br>
+		This can happen if the installed WiFi module and firmware are incompatible. 
+	<h3>Solution</h3>
+		If you have the DWM-W015 WiFi module, your issue is not caused by the WiFi module. The DWM-W015 version is compatible with all firmwares.
+		<br><br>
+		If you have the DWM-W024 or J27H020 WiFi modules, you will need to either replace them with a DWM-W015 or upgrade your firmware to v1.4 or higher. 
+		<br><br>
+		Alternatively, you could only update the WiFi firmware in NAND. Download the latest WiFi firmware with <a href="https://github.com/NinjaCheetah/NUSGet">NUSGet</a> and copy the app and TMD to the following directory as "000000xx.app" and "title.tmd".<br>
+		&emsp;&emsp;<code>NAND:/title/0003000f/484e4341/content/</code><br><br>
+		<i><b>Note: you must enable "create decrypted contents" in NUSGet.</b></i>
+		<br><br>
+		The WiFi module types are shown below. From top to bottom: DWM-W015, DWM-W024, J27H020<br><br>
+		<img src="../../photos/wifimodule/types.png">
+	</div>
+
+</body>
