@@ -1,5 +1,6 @@
 body {
 	margin-bottom: 20px;
+	background-image: url('https://cdn.randommeaninglesscharacters.com/ui-images/menu/dsi_dsi_background.jpg');
 }
 
 div.gallery {
@@ -48,6 +49,11 @@ h2 {
 
 h3 {
 	font-size: 25pt;
+}
+
+div.alternatives {
+	margin-top: 25px;
+	background-color: #33ccff;
 }
 
 div.content {
