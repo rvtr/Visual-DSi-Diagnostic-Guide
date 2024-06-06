@@ -1,3 +1,9 @@
+img.banner {
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 25px;
+}
+
 body {
 	margin-bottom: 20px;
 	background-image: url('https://cdn.randommeaninglesscharacters.com/ui-images/menu/dsi_dsi_background.jpg');
@@ -83,7 +89,7 @@ table {
 	display: inline-block;
 	text-align: left;
 	font-size: 15pt;
-	padding: 0px 10px 0px 10px;
+	padding: 0px 20px 0px 20px;
 	height: 100%;
 	background-color: #d9d9d9;
     border-width:           0px 0px 1px 5px;
